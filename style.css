@@ -2,7 +2,7 @@
     --primary-color:#7554c2;
     --secondary-color: #f5f5f5;
     --colorFirst-gradient:#9d7de8;
-    --colorSecond-gradient:#9b8fb8;
+    --colorSecond-gradient:#b0a9bf;
 }
 
 body{
@@ -123,6 +123,24 @@ select{
     background-color: #6ec9d1;
 }
 
+.fa-check, .fa-trash{
+    pointer-events: none;
+}
+
 span{
-    color: rgb(218, 31, 31);
+    color: white;
+    font-weight: bolder;
+    background-color:rgb(232, 38, 38) ;
+    padding: 1rem;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    transition: all 0.7s ease;
+    opacity: 0.3;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: #e2dbf1;
 }
