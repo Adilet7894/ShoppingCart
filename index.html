@@ -21,8 +21,27 @@
     />
   </head>
   <body>
-  
+    <center>
+      <h1>My Shopping List</h1>
 
+      <form>
+        <input type="text" class="input" />
+        <button class="add">
+          <i class="fas fa-plus-square"></i>
+        </button>
+        
+        <div class="select">
+          <select name="todos" class="filter">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="not-completed">Not Completed</option>
+          </select>
+        </div>
+      </form>
+      <span></span>
+      <div class="container-list">
+      <ul class="listed-items"></ul></div>
+    </center>
     <script src="main.js"></script>
   </body>
 </html>
